@@ -6,11 +6,12 @@
 }
 
 .login > img {
-    width: 40%;
+    /* width: 40%; */
+    width: 300px;
 }
 
 .login > a {
-    padding:20px;
+    padding:15px 20px;
     background-color: #1db954;
     border-radius: 50px;
     font-weight: 800;
@@ -21,9 +22,10 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .login > img {
-        width: 70%;
+        /* width: 70%; */
+        width:200px;
     }
 
     .login > a {
