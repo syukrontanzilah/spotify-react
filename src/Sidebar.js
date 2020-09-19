@@ -14,7 +14,7 @@ function Sidebar() {
             className="sidebar__logo"
             src="https://berndvoss.com/wp-content/uploads/2018/10/spotify-transp-white-1.png" alt="spotify"/>
             
-            <SidebarOption 
+            <SidebarOption
             title="Home"
             Icon ={HomeIcon}
             />
