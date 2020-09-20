@@ -29,7 +29,7 @@ function Footer() {
          </div>
 
          <div className="footer__right">
-            <Grid container spacing={2}>
+            <Grid className="footer__rightRow" container spacing={2}>
                <Grid item>
               <PlaylistPlayIcon/>
            </Grid> 

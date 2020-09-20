@@ -39,3 +39,16 @@
     opacity: 0.8;
     color: white;
 }
+
+
+@media screen and (max-width: 600px) {
+    .songRow {
+        margin-left: 5px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+        color: white;
+    }
+
+}

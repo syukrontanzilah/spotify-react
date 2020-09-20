@@ -64,3 +64,45 @@ opacity: 0.6;
     transition: 100ms transform ease-in;
     transform: scale(1.08);
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .body {
+        flex:1
+    }
+
+    .body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .body__info > img {
+        margin-right: 10px;
+        height: 120px;
+        width: 120px;
+        box-shadow: 0 4px 50px rgba(0,0,0,0.6);
+        opacity: 0.6;
+     }
+    .body__infoText > h2 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        
+    .body__infoText > p {
+            font-size: 12px;;
+        }
+
+    .body__icons {
+            align-items: center;
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+    .body__shuffle {
+            font-size: 40px !important;
+            margin-left: 10px;
+        }
+    
+    }
+

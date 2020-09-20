@@ -60,12 +60,12 @@ function Sidebar() {
               <SidebarOption
             title="Music 90"
             />
-                 {/* <SidebarOption
+                 <SidebarOption
             title="Japanese"
             />
               <SidebarOption
             title="Arabian and East Music"
-            /> */}
+            />
 
         </div>
     )

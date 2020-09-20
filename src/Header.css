@@ -33,3 +33,19 @@ align-items: center;
     margin-left: 10px;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        height: 25px;
+        margin-bottom: 20px;
+}
+.header__left > input {
+ 
+}
+
+.header__right {
+    display: flex;
+    padding-left: 20px;
+    }
+
+}
