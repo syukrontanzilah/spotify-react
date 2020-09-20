@@ -30,11 +30,15 @@ function Sidebar() {
             <strong className="sidebar__title">PLAYLIST</strong>
             <hr/>
 
-            {playlists?.items?.map((playlist) => (
+            {/* {playlists?.items?.map((playlist) => (
                 <SidebarOption title={playlist.name}/>
-            ))}
+            ))} */}
 
-            {/* <SidebarOption
+            <SidebarOption
+            title="My Subscriptions Playlist"
+            />
+
+            <SidebarOption
             title="Hip hop"
             />
               <SidebarOption
@@ -42,7 +46,27 @@ function Sidebar() {
             />
               <SidebarOption
             title="R&B"
+            />
+
+            <SidebarOption
+            title="Romantic Song"
+            />
+              <SidebarOption
+            title="Jazz"
+            />
+                 <SidebarOption
+            title="Classic"
+            />
+              <SidebarOption
+            title="Music 90"
+            />
+                 {/* <SidebarOption
+            title="Japanese"
+            />
+              <SidebarOption
+            title="Arabian and East Music"
             /> */}
+
         </div>
     )
 }
